@@ -183,13 +183,13 @@
 
 - (void)fixContentSizeForScrollingIfNecessary
 {
-    if (SYSTEM_VERSION_LESS_THAN(@"10.2"))
-    {
-        CGSize content = self.contentSize;
-        content.width = rint(content.width);
-        content.height = rint(content.height);
-        self.contentSize = content;
-    }
+//    if (SYSTEM_VERSION_LESS_THAN(@"10.2"))
+//    {
+//        CGSize content = self.contentSize;
+//        content.width = rint(content.width);
+//        content.height = rint(content.height);
+//        self.contentSize = content;
+//    }
 }
 
 @end
